@@ -46,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es" className="bg-niebla">
+    <html lang="es" className="light bg-niebla">
       <body className={`${fraunces.variable} ${manrope.variable} ${plexMono.variable} antialiased`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
